@@ -5,7 +5,64 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Beautiful Page</title>
   <style>
-    /* PASTE ALL CSS CODE HERE */
+    /* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #f4f7f6;
+  color: #333;
+  line-height: 1.6;
+  text-align: center;
+}
+
+header {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: white;
+  padding: 3rem;
+}
+header h1 { font-size: 22.5rem; }
+header p { font-size: 1.2rem; opacity: 0.8; }
+
+.cards {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2rem auto;
+  max-width: 800px;
+}
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  width: 300px;
+  transition: transform 0.2s;
+}
+.card:hover { transform: translateY(-8px); }
+.card h2 { color: #2575fc; margin-bottom: 0.5rem; }
+.card button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background: #6a11cb;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.card button:hover { opacity: 0.8; }
+
+footer {
+  background: #333;
+  color: white;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+/
     * {
       margin: 0;
       padding: 0;
